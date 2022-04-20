@@ -12,7 +12,7 @@ spring:
       jwt:
         signingKey: 123456
   klock:
-    address: 8.131.253.218:6379
+    address: 8.140.107.222:6379
   rabbitmq:
     host: 8.131.61.253
     port: 5672
