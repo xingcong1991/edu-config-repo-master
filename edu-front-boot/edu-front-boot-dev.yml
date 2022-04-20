@@ -28,7 +28,7 @@ spring:
     refresh_grant_type: refresh_token
   rabbitmq:
     # host: 113.31.119.154
-    host: 8.131.253.218
+    host: 8.131.61.253
     port: 5672
     username: root
     password: 123456
