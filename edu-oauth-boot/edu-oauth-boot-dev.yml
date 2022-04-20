@@ -4,17 +4,17 @@ server:
 spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://113.31.119.154:3306/edu_oauth?useUnicode=true&characterEncoding=utf8&useSSL=false
-    username: edurw
-    password: edurw
+    url: jdbc:mysql://localhost:3306/edu_oauth?useUnicode=true&characterEncoding=utf8&useSSL=false
+    username: root
+    password: root
   security:
     oauth2:
       jwt:
         signingKey: 123456
   klock:
-    address: 113.31.105.128:6379
+    address: 8.131.253.218:6379
   rabbitmq:
-    host: 113.31.119.154
+    host: 8.131.61.253
     port: 5672
     username: root
     password: 123456
