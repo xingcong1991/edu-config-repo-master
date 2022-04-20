@@ -34,10 +34,10 @@ spring:
     password: 123456
   klock:
     # address: 113.31.105.128:6379
-    address: 8.131.253.218:6379
+    address: 8.140.107.222:6379
   redis:
     # host: 113.31.105.128
-    host: 8.131.253.218
+    host: 8.140.107.222
     port: 6379
     timeout: 20000
     pool:
