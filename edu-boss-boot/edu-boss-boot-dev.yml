@@ -3,14 +3,14 @@ server:
 
 spring:
   rabbitmq:
-    host: 113.31.119.154
+    host: 8.131.61.253
     port: 5672
     username: root
     password: 123456
   klock:
     address: 113.31.105.128:6379
   redis:
-    host: 113.31.105.128
+    host: 8.140.107.222
     port: 6379
     timeout: 5000
     lettuce:
@@ -64,7 +64,7 @@ jetcache:
         minIdle: 5
         maxIdle: 20
         maxTotal: 50
-      host: 113.31.105.128
+      host: 8.140.107.222
       port: 6379
     # 长时远程緩存，主要用于要求时效要求一般的集中式缓存
     longTime:
@@ -77,7 +77,7 @@ jetcache:
         minIdle: 5
         maxIdle: 20
         maxTotal: 50
-      host: 113.31.105.128
+      host: 8.140.107.222
       port: 6379
     # 短時远程緩存，主要用于要求时效较高的集中式缓存
     shortTime:
@@ -90,7 +90,7 @@ jetcache:
         minIdle: 5
         maxIdle: 20
         maxTotal: 50
-      host: 113.31.105.128
+      host: 8.140.107.222
       port: 6379
 
 edu:
@@ -129,7 +129,7 @@ knife4j:
     password: admin
 
 rocketmq:
-  name-server: 113.31.105.128:9876
+  name-server: 8.140.99.61:9876
   producer:
     group: edu_group
   consumer:
