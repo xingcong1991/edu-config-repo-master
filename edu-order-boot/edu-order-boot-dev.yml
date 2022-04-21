@@ -10,7 +10,7 @@ spring:
                 driver-class-name: com.mysql.jdbc.Driver
                 username: edurw
                 password: edurw
-                url: jdbc:mysql://113.31.119.154:3306/edu_order?useUnicode=true&characterEncoding=utf-8&useSSL=false&serverTimezone=UTC
+                url: jdbc:mysql://localhost:3306/edu_order?useUnicode=true&characterEncoding=utf-8&useSSL=false&serverTimezone=UTC
                 filters: stat,wall,log4j
                 maxActive: 20
                 initialSize: 1
@@ -49,14 +49,14 @@ spring:
                         # 是否在启动时检查分表元数据一致性
                         enabled: false
   rabbitmq:
-    host: 113.31.119.154
+    host: 8.131.61.253
     port: 5672
     username: root
     password: 123456
   klock:
-    address: 113.31.105.128:6379
+    address: 8.140.107.222:6379
   redis:
-    host: 113.31.105.128
+    host: 8.140.107.222
     port: 6379
     timeout: 20000
     pool:
@@ -67,7 +67,7 @@ spring:
     password:
 
 rocketmq:
-  name-server: 113.31.105.128:9876
+  name-server: 8.140.99.61:9876
   producer:
     group: edu_group
   consumer:
