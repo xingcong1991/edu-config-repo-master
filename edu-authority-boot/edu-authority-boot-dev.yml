@@ -3,14 +3,14 @@ server:
 
 spring:
   rabbitmq:
-    host: 113.31.119.154
+    host: 8.131.61.253
     port: 5672
     username: root
     password: 123456
   klock:
-    address: 113.31.105.128:6379
+    address: 8.140.107.222:6379
   redis:
-    host: 113.31.105.128
+    host: 8.140.107.222
     port: 6379
     timeout: 20000
     pool:
@@ -21,9 +21,9 @@ spring:
     password:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://113.31.119.154:3306/edu_authority?characterEncoding=UTF-8&useUnicode=true&useSSL=false&serverTimezone=GMT
-    username: edurw
-    password: edurw
+    url: jdbc:mysql://localhost:3306/edu_authority?characterEncoding=UTF-8&useUnicode=true&useSSL=false&serverTimezone=GMT
+    username: root
+    password: root
   mvc:
     throw-exception-if-no-handler-found: true
   #jwt的密钥
