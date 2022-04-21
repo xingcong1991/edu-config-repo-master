@@ -4,13 +4,13 @@ server:
 spring:
   datasource:
     driver-class-name: com.p6spy.engine.spy.P6SpyDriver
-    url: jdbc:p6spy:mysql://113.31.119.154:3306/edu_user?useUnicode=true&characterEncoding=utf8&useSSL=false
-    username: edurw
-    password: edurw
+    url: jdbc:p6spy:mysql://localhost:3306/edu_user?useUnicode=true&characterEncoding=utf8&useSSL=false
+    username: root
+    password: root
   klock:
-    address: 113.31.105.128:6379
+    address: 8.140.107.222:6379
   rabbitmq:
-    host: 113.31.119.154
+    host: 8.131.61.253
     port: 5672
     username: root
     password: 123456
