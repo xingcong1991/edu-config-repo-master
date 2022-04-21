@@ -23,7 +23,7 @@ spring:
       min-idle: 0
       max-idle: 8
       max-wait: -1
-    password:
+    # password:
   security:
     oauth2:
       jwt:
