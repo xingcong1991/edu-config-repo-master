@@ -8,7 +8,7 @@ spring:
     username: root
     password: root
   klock:
-    address: 8.140.107.222:6379
+    address: redis://8.140.107.222:6379
   rabbitmq:
     host: 8.131.61.253
     port: 5672
