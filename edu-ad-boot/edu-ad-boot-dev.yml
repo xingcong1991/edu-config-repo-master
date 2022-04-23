@@ -4,13 +4,14 @@ server:
 spring:
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql://113.31.119.154:3306/edu_ad?characterEncoding=UTF-8&useUnicode=true&useSSL=false&serverTimezone=GMT
-    username: edurw
-    password: edurw
+    # 本机虚拟机
+    url: jdbc:mysql://192.168.124.159:3306/edu_ad?characterEncoding=UTF-8&useUnicode=true&useSSL=false&serverTimezone=GMT
+    username: root
+    password: root
   klock:
-    address: 113.31.105.128:6379
+    address: 8.140.107.222:6379
   rabbitmq:
-    host: 113.31.119.154
+    host: 8.131.61.253
     port: 5672
     username: root
     password: 123456
