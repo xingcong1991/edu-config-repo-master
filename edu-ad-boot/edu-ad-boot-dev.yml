@@ -7,7 +7,7 @@ spring:
     # 本机虚拟机
     url: jdbc:mysql://192.168.124.159:3306/edu_ad?characterEncoding=UTF-8&useUnicode=true&useSSL=false&serverTimezone=GMT
     username: root
-    password: root
+    password: admin
   klock:
     address: 8.140.107.222:6379
   rabbitmq:
