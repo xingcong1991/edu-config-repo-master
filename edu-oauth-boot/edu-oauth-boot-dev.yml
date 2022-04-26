@@ -14,7 +14,7 @@ spring:
   klock:
     address: 8.140.107.222:6379
   rabbitmq:
-    host: 8.131.61.253
+    host: 192.168.124.157
     port: 5672
     username: root
     password: 123456
