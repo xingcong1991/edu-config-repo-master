@@ -49,7 +49,7 @@ spring:
                         # 是否在启动时检查分表元数据一致性
                         enabled: false
   rabbitmq:
-    host: 8.131.61.253
+    host: 192.168.124.157
     port: 5672
     username: root
     password: 123456
