@@ -46,7 +46,7 @@ rocketmq:
 webSocket:
   origin: http://192.168.124.110
   context: /push
-  port: 18899
+  port: 8899
 
 management:
   endpoints:
