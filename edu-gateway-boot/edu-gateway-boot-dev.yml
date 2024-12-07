@@ -3,16 +3,16 @@ server:
 
 spring:
   rabbitmq:
-    host: 192.168.124.157
+    host: 192.168.124.156
     port: 5672
     username: root
     password: 123456
   klock:
     #address: 113.31.105.128:6379
-    address: 8.140.107.222:6379
+    address: 192.168.124.156:6379
   redis:
     #host: 113.31.105.128
-    host: 8.140.107.222
+    host: 192.168.124.156
     port: 6379
     timeout: 5000
     lettuce:
